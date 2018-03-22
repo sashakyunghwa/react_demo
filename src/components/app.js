@@ -12,23 +12,23 @@ class App extends Component {
                 { 
                     color: 'red',
                     pos: genRandomPos()
+                },
+                { 
+                    color: 'yellow',
+                    pos: genRandomPos()
+                },
+                { 
+                    color: 'purple',
+                    pos: genRandomPos()
+                },
+                { 
+                    color: 'blue',
+                    pos: genRandomPos()
+                },
+                { 
+                    color: 'hotpink',
+                    pos: genRandomPos()
                 }
-                // { 
-                //     color: 'yellow',
-                //     pos: genRandomPos()
-                // },
-                // { 
-                //     color: 'purple',
-                //     pos: genRandomPos()
-                // },
-                // { 
-                //     color: 'blue',
-                //     pos: genRandomPos()
-                // },
-                // { 
-                //     color: 'hotpink',
-                //     pos: genRandomPos()
-                // }
             ]
         };
 
