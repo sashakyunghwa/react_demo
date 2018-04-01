@@ -1,14 +1,15 @@
 import React from 'react';
-import '../assets/css/app.css';
-import logo from '../assets/images/logo.svg';
+import { Route } from 'react-router-dom';
+import Home from './home';
+import About from './about';
+import Articles from './articles';
+import Nav from './nav.js';
 
-const App = () => (
-    <div>
-        <div className="app">
-            <img src={logo} className="logo rotate"/>
-            <h1>Welcome to React</h1>
-        </div>
+export default () => (
+    <div className="container">
+        <Nav/>
+        <Route exact path='/' component={Home}/>
+        <Route path='/about' component={About}/>
+        <Route path='/articles' component={Articles}/>
     </div>
 );
-
-export default App;
